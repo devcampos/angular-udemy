@@ -1,0 +1,22 @@
+<h1>Dragon Ball Z - {{tittle}}</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-personajes [data]='personajes'></app-personajes>
+        <!-- <h3>Personajes</h3> Se convierte en componente hijo
+        <hr>
+        <ul *ngFor=" let personaje of personajes" >
+            <li>{{personaje.nombre}} - {{personaje.poder | number }}</li>
+        </ul> -->
+    </div>
+
+    <div class="col">
+        <app-agregar 
+            [nuevo]="nuevo"
+            (onNvoPersonaje)="agregarNuevoPersonaje($event)"
+            >
+        </app-agregar>
+    </div>
+</div>
+

@@ -1,0 +1,26 @@
+Seccion 5 
+
+Temas puntuales de la sección
+¿Qué veremos en esta sección?
+Una vez sentadas las bases de Angular en la sección anterior, vamos a seguir expandiéndolas aquí, con los siguientes temas:
+
+Profundizar un poco más en los módulos
+
+FormsModule
+ngModel
+@Inputs
+@outputs
+Servicios
+Métodos en servicios
+Depuraciones
+
+
+
+ng generate module NombreModulo
+ng g m NombreModulo --akipTests (Omite el archivo de prueba)
+
+las "()" para mandar llamar metodos
+las "[]" para bindear una propiedad con objeto
+========= TWO WAY DATA BINDING ========
+cuando se pone en el forms  [(ngModel)] quiere decir que quiero escuchar y emitir el evento
+
